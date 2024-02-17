@@ -1,0 +1,28 @@
+.search {
+    border: 1px solid #959595;
+    border-radius: 12px;
+    padding: 12px 176px 12px 20px;
+    width: 469px;
+    height: 48px;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: stretch;
+    input {
+        background: transparent;
+        outline: none;
+        letter-spacing: 0.01em;
+        text-transform: capitalize;
+        color: #959595;
+        font: 400 16px / 135% var(--font-family);
+        border: none;
+        margin-left: 5px;
+        width: 100%;
+    }
+    img {
+        width: 24px;
+        height: 24px;
+    }
+}

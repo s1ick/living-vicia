@@ -1,0 +1,6 @@
+#root {
+  --font-family: "Proxima Nova", sans-serif;
+}
+.wrapper {
+  display: flex;
+}

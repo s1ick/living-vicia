@@ -1,0 +1,28 @@
+.sidebar {
+    border-radius: 10px;
+    width: 243px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    position: relative;
+    background: #353542;
+    min-height: 300px;
+    &::after {
+        content: '';
+        position: absolute;
+        width: 207.88px;
+        height: 219.3px;
+        left: -50%;
+        transform: translateY(50%);
+        z-index: -1;
+        /* Unactive Body Form */
+        background: #959595 url('../../assets/leaf.png');
+        opacity: 0.2;
+        transform: matrix(0.97, -0.26, 0.26, 0.97, 0, 0);
+    }
+}/* Background Leaf */
+
+
