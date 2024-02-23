@@ -43,7 +43,7 @@ function Marketplace() {
 
     return (
         <MarketplaceContext.Provider value={{ filters: filterState, onChipsChange }}>
-            <div style={{ width: 800, margin: '0 auto' }}>
+            <div>
                 <Header />
                 <SettingsPanel />
                 <div className={'wrapper'}>

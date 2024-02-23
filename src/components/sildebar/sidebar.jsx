@@ -10,8 +10,6 @@ const Sidebar = () => {
 
     return (
         <div className={cl.sidebar}>
-
-
             <Dropdown
                 title={'Classification'}
                 checkbox={classification}

@@ -5,6 +5,7 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import CheckboxWithLabel from '../checkbox/checkbox';
 import { MarketplaceContext } from "../../../pages/Marketplace";
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 const Dropdown = ({ title, checkbox }) => {
 
     const [checkboxText, setCheckboxSet] = useState('sdf')
@@ -13,7 +14,9 @@ const Dropdown = ({ title, checkbox }) => {
     return (
         <div>
             <Accordion>
-                <AccordionSummary>
+                <AccordionSummary
+                expandIcon={<ExpandMoreIcon />}
+                >
                     {title}
                 </AccordionSummary>
                 <AccordionDetails>

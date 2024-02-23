@@ -4,7 +4,7 @@ import cl from './range-slider.module.scss';
 function valuetext(value) {
   return `${value}°C`;
 }
-const RangeSlider = ({ minValue, maxValue, suffix, visibleMin }) => {
+const RangeSlider = ({ minValue, maxValue, suffix, visibleMin, label}) => {
   const [value, setValue] = React.useState();
 
   const handleChange = (event, newValue) => {
@@ -12,8 +12,10 @@ const RangeSlider = ({ minValue, maxValue, suffix, visibleMin }) => {
   };
   return (
     <div className={cl.wrapperSlider}>
-      <Slider
-        getAriaLabel={() => 'Temperature range'}
+      <div className={cl.titleRangeSlide}>
+        {label}
+      </div>
+      <Slider        
         value={undefined}
         onChange={handleChange}
         valueLabelDisplay="auto"

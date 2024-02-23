@@ -45,8 +45,8 @@ const SettingsPanel = () => {
                 />
             </div>
             <div className={cl.tipsWrapper}>
-                <div>
-                    1034,5 Results
+                <div className={cl.results}>
+                    {marketplaceContext.filters.filters.chips.length} Results
                 </div>
                 {marketplaceContext.filters.filters.chips.map(chip => {
                     return <Tips

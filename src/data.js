@@ -22,11 +22,10 @@
         { id: 1, text: 'Pre-Roll Flower', checked: false },
         { id: 2, text: 'Pre-Roll Infused', checked: false },
         { id: 3, text: 'Pre-Roll Leaf', checked: false },
-        { id: 4, text: 'Shake', checked: false },
-        { id: 5, text: 'Smalls', checked: false },
-        { id: 6, text: 'Trim', checked: false },
-        { id: 7, text: 'Shake', checked: false },
-        { id: 8, text: 'Keef', checked: false },
-        { id: 9, text: 'Fresh Frozen', checked: false },
+        { id: 4, text: 'Smalls', checked: false },
+        { id: 5, text: 'Trim', checked: false },
+        { id: 6, text: 'Shake', checked: false },
+        { id: 7, text: 'Keef', checked: false },
+        { id: 8, text: 'Fresh Frozen', checked: false },
 
     ]

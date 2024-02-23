@@ -1,7 +1,7 @@
 .tipsWrapper {
     display: flex;
 	flex-direction: row;
-	flex-wrap: nowrap;
+	flex-wrap: wrap;
 	justify-content: flex-start;
 	align-items: center;
 	align-content: stretch;
@@ -15,4 +15,9 @@
 	align-items: center;
 	align-content: stretch;
     gap: 10;
+}
+.results {
+	margin-right: 16px;
+	color: #fff;
+	white-space: nowrap;
 }
